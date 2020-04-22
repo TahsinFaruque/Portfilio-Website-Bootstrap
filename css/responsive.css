@@ -1,0 +1,205 @@
+@media (max-width:1199px){
+
+     .heading {
+    font-size: 38px;
+    top: 0px;
+    }
+
+    .heading span {
+        font-size: 65px;
+        top:43px;
+        }
+
+     .img-fluid {
+    padding-top: 100px;}   
+
+    .resume-box .resume p {
+    padding-top: 17px;
+    max-width: 350px;
+}
+
+.resume-box:hover .resume {
+    padding-left: 20px;
+}    
+
+ 
+.resume-box .resume h3 {
+    font-size: 22px;
+}    
+
+.resume-box .resume h4 {
+    font-size: 19px;
+}    
+
+
+}
+
+@media (max-width:991px){
+    
+    .navbar-nav {
+    flex-direction: row;
+    justify-content: center; 
+}
+
+  .resume-box:hover .resume {
+    background-size: contain;
+}
+
+
+    .navbar-nav .nav-item .nav-link {
+    padding: 15px 13px;}
+
+.resume-box:hover .resume {
+    padding-left:12px;
+    padding-right:12px;
+
+}    
+
+    .resume-box .resume p {
+    max-width: 250px;
+}
+
+.resume-box .resume h3 {
+    font-size: 16px;
+
+}
+
+.resume-box .resume h4 {
+    font-size: 12px;
+}
+
+.resume-box .resume span {
+    font-size: 15px;
+    padding-left: 5px 12px;
+}    
+
+.available .modal-btn {
+    color: #40afcc;
+    background: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 0;
+    border-bottom-left-radius: 30px;
+    padding: 10px 25px;
+    border: 1px solid #40afcc;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+.form-control {
+    font-size: 15px;}
+
+.btn-touch {
+    font-size: 15px;
+    padding: 9px 18px;
+    outline: 0;} 
+
+
+.social-icon a ul li {
+    padding: 0px 0 5px;
+    font-size: 12px;
+    text-align: end;
+    max-width: 100%;
+}
+
+.social-icon a ul li span {
+    margin-top: 7px;
+    margin-left: 14px;
+}
+
+.social-icon img {
+    max-width: 46px;
+}
+
+
+}
+
+
+@media (max-width:767px){
+
+
+    .btn-custom {
+    font-size: 15px;
+    padding: 8px 20px;}
+
+
+    .resume-box:hover .resume {
+    background-size: cover;
+}
+
+.resume-box .resume p {
+    max-width: 400px;
+}
+
+.resume-box .resume span {
+    font-size: 16px;
+    padding: 5px 10px;
+}    
+
+.available span {
+    font-size: 20px;
+    font-weight:300;}
+
+
+    .available h5 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.available .modal-btn {
+    font-size: 9px;
+}
+
+.img-fluid {
+    max-width: fit-content;}
+}
+
+
+
+
+@media (max-width:575px){
+
+
+.resume-box:hover .resume {
+    background-size: contain;
+}
+
+.resume-box .resume h3 {
+    font-size: 12px;
+}
+ .work li .btn {
+    font-size: 15px;  
+}
+
+.available .container {
+    padding: 25px 8px;
+}
+
+.img-fluid {
+    padding-top: 100px;
+    max-width: 241px;
+}
+
+.social-icon a ul li span {
+    margin-top: 7px;
+    margin-left: 0;
+}
+
+.social-icon img {
+    max-width: 40px;
+}
+
+
+footer h5 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+footer {
+    padding: 20px 0;
+}
+
+}
+
+
